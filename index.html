@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M. Ahsan Ansari</title>
+<meta name="description" content="Portfolio of M. Ahsan Ansari, a front-end web development student building responsive interfaces with HTML and CSS and learning JavaScript.">
+<meta name="author" content="M. Ahsan Ansari">
+<meta property="og:title" content="M. Ahsan Ansari | Front-End Developer in the Making">
+<meta property="og:description" content="Student portfolio: HTML, CSS, and a growing JavaScript journey.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0a1020">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#home">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="#home" class="logo" aria-label="AH. home">M.Ahsan Ansari<span>.</span></a>
+    <nav id="menu" class="nav__menu" aria-label="Main">
+      <a href="#home" class="nav__link">Home</a>
+      <a href="#about" class="nav__link">About</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#journey" class="nav__link">Learning Journey</a>
+      <a href="#projects" class="nav__link">Projects</a>
+      <a href="#contact" class="nav__link">Contact</a>
+      <a href="#contact" class="btn btn--primary nav__cta">Let's Connect</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <p class="hello">Hello, world! I'm</p>
+      <h1>M. Ahsan Ansari</h1>
+      <p class="headline">Front-End Developer in the Making</p>
+      <p class="lead">I build clean, responsive web interfaces with HTML and CSS while learning JavaScript and working toward my goal of becoming a Full-Stack Web Developer.</p>
+      <div class="actions">
+        <a href="#projects" class="btn btn--primary">Explore My Work</a>
+        <a href="#contact" class="btn btn--ghost">Connect With Me</a>
+      </div>
+      <p class="status"><span class="dot" aria-hidden="true"></span>Currently Learning JavaScript</p>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container about">
+    <div class="reveal">
+      <h2>About Me</h2>
+      <p class="sub">A learner today. A better developer tomorrow.</p>
+      <p>I'm a front-end web development student. I have a working knowledge of HTML and CSS, and I'm now studying JavaScript to make my pages interactive.</p>
+      <p>My goal is to grow step by step into a full-stack web developer. I learn by building small things, breaking them, and fixing them, which is why curiosity, regular practice, and problem-solving matter more to me than any title.</p>
+      <blockquote>I believe every great developer starts with curiosity, builds through practice, and improves with consistency.</blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="container">
+    <div class="reveal"><h2>Skills</h2><p class="sub">What I know now, what I'm learning, and where I'm heading.</p></div>
+    <div class="skills">
+      <div class="skillcol reveal">
+        <h3><span class="tag tag--know">Currently know</span></h3>
+        <article class="card"><b>HTML5</b><p>Semantic page structure and accessible markup.</p></article>
+        <article class="card"><b>CSS3</b><p>Layouts with Flexbox and Grid, styling, and transitions.</p></article>
+        <article class="card"><b>Responsive Web Design fundamentals</b><p>Making pages work from phone to desktop.</p></article>
+      </div>
+      <div class="skillcol reveal">
+        <h3><span class="tag tag--learn">Currently learning</span></h3>
+        <article class="card"><b>JavaScript</b><p>Variables, functions, arrays, and objects.</p></article>
+        <article class="card"><b>DOM Manipulation</b><p>Selecting and changing page elements with code.</p></article>
+        <article class="card"><b>Events &amp; interactive pages</b><p>Responding to clicks, input, and scrolling.</p></article>
+      </div>
+      <div class="skillcol reveal">
+        <h3><span class="tag tag--goal">Future goals</span></h3>
+        <article class="card"><b>Advanced JavaScript</b><p>Deeper language concepts after the basics.</p></article>
+        <article class="card"><b>React.js</b><p>Component-based interfaces.</p></article>
+        <article class="card"><b>Node.js &amp; Express.js</b><p>Backend servers and APIs.</p></article>
+        <article class="card"><b>Database fundamentals</b><p>Storing and querying app data.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section class="section" id="journey">
+  <div class="container">
+    <div class="reveal"><h2>My Learning Journey</h2><p class="sub">Stages 3 and 4 are goals, not achievements yet.</p></div>
+    <ol class="timeline">
+      <li class="reveal"><span class="num">01</span><div class="glass"><h3>Frontend Foundations <em class="badge">In practice</em></h3><p>Learning HTML structure, semantic elements, CSS styling, layouts, and responsive design.</p></div></li>
+      <li class="reveal"><span class="num">02</span><div class="glass"><h3>JavaScript <em class="badge badge--now">Learning now</em></h3><p>Programming logic, variables, functions, arrays, objects, DOM manipulation, and events.</p></div></li>
+      <li class="reveal"><span class="num">03</span><div class="glass"><h3>Modern Frontend Development <em class="badge badge--goal">Goal</em></h3><p>Explore component-based development and React.js after building a strong JavaScript foundation.</p></div></li>
+      <li class="reveal"><span class="num">04</span><div class="glass"><h3>Full-Stack Development <em class="badge badge--goal">Long-term goal</em></h3><p>Learn backend development, APIs, databases, and deployment to build complete web applications.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+  <div class="container">
+    <div class="reveal"><h2>Projects &amp; Practice</h2><p class="sub">Small steps, real learning, continuous improvement.</p></div>
+    <div class="filters reveal" role="group" aria-label="Filter projects">
+      <button class="chip is-active" data-filter="all" aria-pressed="true">All Projects</button>
+      <button class="chip" data-filter="html-css" aria-pressed="false">HTML &amp; CSS</button>
+      <button class="chip" data-filter="javascript" aria-pressed="false">JavaScript</button>
+    </div>
+    <div class="projects" id="projectGrid"></div>
+    <p class="empty" id="emptyMsg" hidden>No projects in this category yet.</p>
+  </div>
+</section>
+
+<!-- FIND ME ONLINE -->
+<section class="section" id="online">
+  <div class="container">
+    <div class="reveal"><h2>Find Me Online</h2><p class="sub">Follow along as I learn in public.</p></div>
+    <div class="socials">
+      <a class="glass social reveal" href="https://github.com/ahsanansari786" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+        <h3>GitHub</h3><p class="handle">@ahsanansari786</p><p>Explore my code, practice projects, and development progress.</p></a>
+      <a class="glass social reveal" href="https://www.linkedin.com/in/mohammad-ahsan-ansari-558aa9409/" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+        <h3>LinkedIn</h3><p class="handle">Mohammad Ahsan Ansari</p><p>Connect with me professionally and follow my learning journey.</p></a>
+      <a class="glass social reveal" href="https://www.instagram.com/ahs4n_ansari786/" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85C2.38 3.92 3.9 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16ZM12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.69.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0Zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm6.4-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88Z"/></svg>
+        <h3>Instagram</h3><p class="handle">@ahs4n_ansari786</p><p>Follow my personal updates and creative side.</p></a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container contact">
+    <div class="reveal">
+      <h2>Have an Idea? Let's Connect.</h2>
+      <p class="sub">I'm always interested in learning, sharing ideas, and connecting with people who enjoy building things for the web.</p>
+      <p class="direct"><a href="https://github.com/ahsanansari786" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/mohammad-ahsan-ansari-558aa9409/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div><p class="footer__name">M. Ahsan Ansari</p><p class="footer__tag">Learning. Building. Improving.</p></div>
+    <p class="direct"><a href="https://github.com/ahsanansari786" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/mohammad-ahsan-ansari-558aa9409/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://www.instagram.com/ahs4n_ansari786/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+    <div class="footer__end"><p>&copy; <span id="year">2026</span> M. Ahsan Ansari</p><button class="totop" id="toTop" aria-label="Back to top">&uarr;</button></div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
